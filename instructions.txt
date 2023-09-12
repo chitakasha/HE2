@@ -1,5 +1,6 @@
 git pull origin main #command to pull all changes from the main branch on github
-
+chmod +x install.sh
+./install.sh
 
 
 
