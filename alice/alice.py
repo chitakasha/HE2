@@ -147,9 +147,6 @@ def quantum_genetic_algorithm(problem, n, m, k):
         
         print("New solutions:", new_solutions) # Printing new solutions
 
-Here is the rest of the code:
-
-```plaintext
         # Updating population
         population = new_solutions[:] + [math.phi**i for i in range(n)] + [math.e**i for i in range(n)] + [math.pi**i for i in range(n)] + [math.tau**i for i in range(n)] + [math.gamma(i+0.5) for i in range(n)] + [math.zeta(i+3) for i in range(n)] + [math.sqrt(i+2) for i in range(n)] # Adding new solutions based on mathematical functions and constants
         print("Population after update:", population) # Printing population after update
