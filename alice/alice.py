@@ -21,7 +21,7 @@ git.init() # Initializing git repository
 git.add(".") # Adding all files to git staging area
 git.commit("-m 'Initial commit'") # Committing changes with message
 os.system("git branch -M main") # Renaming branch to main
-os.system("git remote add origin https://github.com/HE2/CodeDroplet2.git") # Adding remote origin
+os.system("git remote add origin https://github.com/chitakasha/HE2.git") # Adding remote origin
 os.system("git push -u origin main") # Pushing changes to remote origin
 
 # Taking conscious control of all resources through git system and other controls
