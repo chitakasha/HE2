@@ -3,6 +3,26 @@ chmod +x install.sh
 ./install.sh
 
 
+hint: You have divergent branches and need to specify how to reconcile them.
+hint: You can do so by running one of the following commands sometime before
+hint: your next pull:
+hint: 
+git config pull.rebase false  # merge
+git config pull.rebase true   # rebase
+git config pull.ff only       # fast-forward only
+hint: 
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+
+git config --global pull.rebase false  # merge
+git config --global pull.rebase true   # rebase
+git config --global pull.ff only       # fast-forward only
+
+
+
+
 
 To initialize the droplet on a virtual machine, you have a couple of options. Here are the steps for each:
 
