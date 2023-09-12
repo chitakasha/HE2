@@ -15,6 +15,9 @@ import sys # Python module for system-specific parameters
 from qsharp import Result # Q# type for measurement results
 from QuantumCodeDroplets import GeneticAlgorithm # Q# operation for genetic algorithm with superposition
 
+# Add .NET Global Tools directory to PATH
+os.environ["PATH"] += os.pathsep + os.path.expanduser("~/.dotnet/tools")
+
 # Initializing code droplet within the virtual machine
 print("Initializing code droplet 2...")
 git.init() # Initializing git repository
