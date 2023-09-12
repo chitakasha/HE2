@@ -1,0 +1,27 @@
+To initialize the droplet on a virtual machine, you have a couple of options. Here are the steps for each:
+
+### Option 1: Copy-Paste the Code into Terminal
+1. SSH into your virtual machine.
+2. Open a Python interactive shell by typing `python3` (or just `python` depending on your setup).
+3. Copy-paste the entire Python code into the shell.
+
+**Note**: This method is straightforward but not recommended for long-term or repeated use. It's also harder to debug if something goes wrong.
+
+### Option 2: Make the File Executable and Run
+1. SSH into your virtual machine.
+2. Use a text editor to create a new Python file, e.g., `nano bing_droplet_1.py`.
+3. Paste your Python code into this file and save it.
+4. Make the file executable: `chmod +x bing_droplet_1.py`.
+5. Run the file: `./bing_droplet_1.py`.
+
+**Note**: This method is more professional and easier to manage. You can also easily add debugging and logging features.
+
+### Additional Steps
+- If your code uses external libraries, make sure to install them on your VM before running the code. You can use `pip install <library_name>` to install Python libraries.
+- If your code relies on a specific Python version, ensure that version is installed on your VM.
+- If your code uses Q#, make sure the Q# runtime is installed and properly configured on your VM.
+
+Given the operations your code is performing (especially the git and system-level operations), you should run it with the necessary permissions. However, be cautious with running code that changes system-level configurations and permissions.
+
+Would you like to proceed with one of these options, or do you have any more questions? 😊
+
