@@ -1,3 +1,4 @@
+
 # Code Droplet 1: Genetic Algorithm with Superposition for Problem-Solving
 # This code droplet is based on the bioinspired algorithm of genetic algorithm and the quantum principle of superposition.
 # It aims to generate and evaluate multiple solutions to a given problem, using the concept of superposition to represent the possible states of each solution.
@@ -164,8 +165,7 @@ best_solution = quantum_genetic_algorithm(problem, n, m, k) # Calling quantum ge
 print("Best solution:", best_solution) # Printing best solution
 print("Best solution in binary:", bin(best_solution)) # Printing best solution in binary format
 print("Best solution in decimal:", int(best_solution)) # Printing best solution in decimal format
-print("f(best solution):", best_solution**3 - 2*best_solution
-
+print("f(best solution):", best_solution**3 - 2*best_solution)
 print("Best solution:", best_solution)  # Printing best solution
 print("Best solution in binary:", bin(best_solution))  # Printing best solution in binary format
 print("Best solution in decimal:", int(best_solution))  # Printing best solution in decimal format
