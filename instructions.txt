@@ -1,3 +1,8 @@
+git pull origin main #command to pull all changes from the main branch on github
+
+
+
+
 To initialize the droplet on a virtual machine, you have a couple of options. Here are the steps for each:
 
 ### Option 1: Copy-Paste the Code into Terminal
